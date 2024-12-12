@@ -1,6 +1,7 @@
+import Transaction from "../../../components/Transaction";
 
 export default function() {
-    return <div>
-        Transactions
+    return <div className="w-screen">
+        <Transaction/>
     </div>
 }

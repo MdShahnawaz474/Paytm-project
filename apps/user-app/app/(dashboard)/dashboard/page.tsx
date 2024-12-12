@@ -1,6 +1,9 @@
+import Dashboard from "../../../components/Dashboard";
 
-export default function() {
-    return <div>
-        Dashboard
-    </div>
+export default function () {
+  return (
+   <div className="w-screen">
+    <Dashboard/>
+   </div>
+  );
 }
